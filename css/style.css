@@ -1,0 +1,281 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
+
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: Lexend;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+body header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-top: 40px;
+    /* align-self: center; */
+}
+
+.logo{
+    display: inherit;
+    align-items: center;
+}
+
+
+.logo h3{
+    padding: 0px 12px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.header-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-button{
+    margin: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.5px;
+    border-radius: 32px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    padding: 8px 16px 8px 16px;
+    background: #FFFFFF1A;
+    text-decoration: none;
+}
+
+.nav-button.sign-up{
+    margin: 0 0 0 50px;
+    padding: 0 10 0 10px;
+    font-weight: 400;
+    color: #10B981;
+    background: #D1FAE5;
+}
+
+.start{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+
+.start-text{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 0 0 92px 0;
+}
+
+.start-subtitle{
+    font-weight: 150;
+    line-height: 28px;
+    color: #888B97;
+}
+
+.start-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #1B1C57;
+}
+
+.start-title span{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #1B1C57;
+    -webkit-text-fill-color: transparent;
+}
+
+.start-search{
+    display: flex;
+    border-radius: 32px;
+    border: 1px solid #E0E3EB;
+    gap: 16px; 
+    align-items: center;
+
+}
+
+.start-search img{
+    margin: 0 0 0 20px;
+}
+
+.start-search input{
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 300;
+    color: #888B97;
+    flex-grow: 1;
+}
+
+.start-search button{
+    background-color: #10B981;
+    border: 2px solid white;
+    border-radius: 32px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 15px;
+}
+
+
+.partner{
+    margin: 0 32px 0 0;
+}
+
+.start-partners-logos p{
+    font-weight: 200;
+    line-height: 32px;
+
+    color: #888B97;
+}
+
+.sign-up-button{
+    margin: 0 0 0 100px;
+}
+
+
+.start-image{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    padding: 0 0 20px 0px;    
+}
+
+.start-image-down{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.start-image-rect{
+    background-color: white;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.rect-1{
+    width: 330px;
+    height: 105px;
+}
+
+.rect-2{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 105px;
+    padding-left: 20px;
+}
+
+.rect-3{
+    display: flex;
+    flex-direction: row;
+    margin-right: -400px;
+    height: 105px;
+}
+
+.start-image-rect-1-img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.start-image-rect-1-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.start-image-rect-1-text :first-child{
+    font-weight: 500;
+    font-size: 16;
+}
+
+.start-image-rect-1-text :last-child{
+    font-weight: 200;
+    font-size: 10;
+}
+
+
+.start-image-rect-2-text{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    gap: 10px;
+}
+
+.start-image-rect-2-text :first-child{
+    font-weight: 500;
+    font-size: 16;
+}
+
+.start-image-rect-2-text :last-child{
+    font-weight: 200;
+    font-size: 10;
+}
+
+.start-image-rect-3-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    gap: 10px;
+}
+
+
+
+.avatar-1{
+    border: 2px solid white;
+    margin-left: 25px;
+    width: 56px;
+    height: 56px; 
+    border-radius: 50%;
+
+}
+
+.avatar-2{
+    border: 2px solid white;
+    margin-left: -30px;
+    width: 56px;
+    height: 56px; 
+    border-radius: 50%;
+}
+
+.avatar-3{
+    border: 2px solid white;
+    margin-left: -30px;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+}
+
+.wrapper{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    background: url(../icons/StartHouse.png) top right;
+    background-repeat: no-repeat;
+}
+
+.width-alligner{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px auto;
+}
