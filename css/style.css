@@ -279,3 +279,122 @@ body header{
     max-width: 1200px;
     margin: 0px auto;
 }
+
+
+.recomendation{
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+}
+
+.recomendation-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.recomendation-nav-left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.recomendation-nav-left h2{
+    margin-left: 40px;
+    font-weight: 500;
+    font-size: 32px;
+    
+}
+
+.our-rec{
+    display: flex;
+    flex-direction: row;
+    color: #F59E0B;
+    align-items: center;
+    gap: 10px;
+}
+
+.our-rec h5{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.recomendation-nav-mid{
+    display: flex;
+    gap: 32px;
+}
+
+.nav-button.house{
+    color: #10B981;
+    background: #D1FAE5;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.nav-button.villa{
+    border: 1px solid #888B97;
+    color: #888B97;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.recomendation-nav-right{
+    display: flex;
+    gap: 16px;
+}
+
+
+.nav-button.lswitch{
+    padding: 25px 32px;
+    background: #E0E3EB;
+}
+
+.nav-button.rswitch{
+    padding: 25px 32px;
+    background: #10B981;
+}
+
+.res-homes{
+    display: flex;
+    overflow: scroll;
+    margin-top: 40px;
+    gap: 40px;
+    padding-left: 160px;
+}    
+
+.rec-home-subimg{
+    margin-top: -50px;
+    margin-bottom: 50px;
+    margin-left: 16px;
+}
+
+.rec-home-text{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.rec-home-text :first-child{
+    font-size: 24px;
+    font-weight: 350;
+}
+
+.rec-home-text :last-child{
+    font-size: 20px;
+    font-weight: 350;
+    color: #3C4563;
+}
+
+
+.rec-home-seller{
+    display: flex;
+    margin-top: 24px;
+    gap: 16px;
+}
