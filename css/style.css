@@ -542,3 +542,169 @@ body header{
     font-weight: 500;
     font-size: 32px;
 }
+
+
+.review-houses{
+    display: flex;
+    align-items: center;
+    margin-left: -200px;
+    overflow: scroll;
+    margin-top: 40px;
+    gap: 56px;
+}
+.review-house{
+    display: flex;
+    flex-direction: column;
+}
+
+.review-rect{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 16px;
+    margin-top: -144px;
+    margin-left: 64px;
+    margin-right: 64px;
+}
+
+.review-text-big{
+    display: flex;
+    flex-direction: column;
+    margin: 32px;
+    gap: 16px;
+}
+
+
+.review-text-big :first-child{
+    color: #1B1C57;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+.review-text-big :last-child{
+    color: #626687;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.house-reviewer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.review-person{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+
+.rec-home-seller-data{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.rec-home-seller-data :first-child{
+    font-size: 14px;
+}
+
+.rating{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    margin: 20px 32px 0 20px;
+}
+
+.tips{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.tips-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.tips-big{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+    color: #1B1C57;
+}
+
+.nav-button.artikel{
+    padding: 15px 12px;
+    background-color: #10B981;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.tips-media{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tips-media-left{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    /* align-items: start; */
+}
+
+.tips-media-right{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.tips-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tip-submedia{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.tips-text-top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #3C4563;
+    margin-left: -20px;
+}
+
+.tips-text-mid{
+    color: #1B1C57;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.tips-text-bot{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    font-size: 14px;
+    font-weight: 200;
+    color: #888B97;
+}
+
+.miwa{
+    margin-right: -30px;
+    margin-bottom: -30px;
+    margin-top: -20px;
+}
+
